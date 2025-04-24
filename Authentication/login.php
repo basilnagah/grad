@@ -1,10 +1,16 @@
 <?php 
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
+
 require_once '../conn/connection.php';
 require_once 'function.php';
 require_once '../vendor/autoload.php';  // Import JWT Library
 
 use Firebase\JWT\JWT;
 use Firebase\JWT\Key;
+
+
 
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json");
