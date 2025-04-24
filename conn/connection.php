@@ -3,7 +3,7 @@ $servername = "shinkansen.proxy.rlwy.net";
 $username = "root";
 $password = "vtEYOwzOZYCNwFqkaEqfEowwYWKKlmUr";
 $dbname = "railway";
-$port = 17416;
+$port = 3306;
 
 $conn = new mysqli($servername, $username, $password, $dbname, $port);
 
